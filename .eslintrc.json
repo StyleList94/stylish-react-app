@@ -63,7 +63,9 @@
     "jsx-a11y/label-has-associated-control": [
       2,
       {
-        "labelAttributes": ["label"],
+        "labelAttributes": [
+          "label"
+        ],
         "depth": 3
       }
     ],
@@ -71,7 +73,10 @@
       "error",
       {
         "props": true,
-        "ignorePropertyModificationsForRegex": ["^state$", "^ctx$"]
+        "ignorePropertyModificationsForRegex": [
+          "^state$",
+          "^ctx$"
+        ]
       }
     ],
     "react-hooks/rules-of-hooks": "error",
@@ -86,18 +91,25 @@
     "react/function-component-definition": [
       2,
       {
-        "namedComponents": ["arrow-function", "function-declaration"],
+        "namedComponents": [
+          "arrow-function",
+          "function-declaration"
+        ],
         "unnamedComponents": "arrow-function"
       }
     ],
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".ts", ".tsx"]
+        "extensions": [
+          ".ts",
+          ".tsx"
+        ]
       }
     ],
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off"
   }
 }
