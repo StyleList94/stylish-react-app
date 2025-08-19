@@ -13,7 +13,7 @@ describe('<App />', () => {
     );
     expect(screen.getAllByAltText(/logo/i)).toHaveLength(2);
 
-    expect(screen.getByText('Vite + React')).toBeInTheDocument();
+    expect(screen.getByText('Stylish React App')).toBeInTheDocument();
 
 
     const button = screen.getByRole('button', { name: /count is 0/i });
